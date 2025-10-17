@@ -12,4 +12,5 @@ CI integration: Run SonarScanner in CI (GitHub Actions / Azure Pipelines) and su
 
 Extension pack: If you want stricter control, publish an internal extension pack that bundles your recommended extensions; then recommend that instead of a long list.
 
-
+## How to run 
+npm run dev
