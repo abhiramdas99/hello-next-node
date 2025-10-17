@@ -38,7 +38,7 @@ cache/
 # Editor / OS files
 .DS_Store
 Thumbs.db
-.vscode/
+#.vscode/  Manually unignore if needed
 .idea/
 *.swp
 *.swo

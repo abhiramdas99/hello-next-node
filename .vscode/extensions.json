@@ -1,0 +1,39 @@
+{
+"recommendations": [
+// 🧠 SonarLint - connects to SonarQube/SonarCloud for live code quality feedback
+"sonarsource.sonarlint-vscode",
+
+
+// 🔍 ESLint - enforces JavaScript/TypeScript coding standards
+"dbaeumer.vscode-eslint",
+
+
+// ✨ Prettier - automatic code formatter
+"esbenp.prettier-vscode",
+
+
+// ⚙️ EditorConfig - keeps consistent indentation and line endings across editors
+"EditorConfig.EditorConfig",
+
+
+// 🕵️‍♀️ GitLens - shows Git blame and repository insights
+"eamodio.gitlens",
+
+
+// 🧩 YAML support - schema validation and completion
+"redhat.vscode-yaml",
+
+
+// 🐳 Docker - syntax highlighting and integration for Dockerfiles & Compose
+"ms-azuretools.vscode-docker",
+
+
+// 🧱 Dev Containers - enables remote development environments
+"ms-vscode-remote.remote-containers",
+
+
+// 🎨 Bracket Pair Colorizer - improves readability of nested code blocks
+"coenraads.bracket-pair-colorizer-2"
+],
+"unwantedRecommendations": []
+}

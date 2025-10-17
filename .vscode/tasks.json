@@ -1,0 +1,21 @@
+{
+"version": "2.0.0",
+"tasks": [
+{
+"label": "Sonar: Run scanner",
+"type": "shell",
+"command": "sonar-scanner",
+"args": [
+"-Dsonar.projectKey=${workspaceFolderBasename}",
+"-Dsonar.sources=.",
+"-Dsonar.host.url=https://sonarqube.example.com",
+"-Dsonar.login=${env:SONAR_TOKEN}"
+],
+"presentation": {
+"reveal": "always",
+"panel": "shared"
+},
+"problemMatcher": []
+}
+]
+}

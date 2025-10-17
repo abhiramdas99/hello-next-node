@@ -1,0 +1,45 @@
+{
+// General editor
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+"source.fixAll.eslint": true
+},
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+
+// Files
+"files.trimTrailingWhitespace": true,
+"files.insertFinalNewline": true,
+
+
+// Tab/indent
+"editor.tabSize": 2,
+"editor.detectIndentation": false,
+
+
+// ESLint
+"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+
+
+// SonarLint (connected mode template)
+"sonarlint.connectedMode.servers": [
+{
+"serverId": "sonarqube",
+"serverUrl": "https://sonarqube.example.com",
+"token": "REPLACE_WITH_SECRET_OR_USE_ENV"
+}
+],
+"sonarlint.connectedMode.projectKey": "com.myorg:my-project",
+
+
+// Workspace-specific exclusions (adjust to your project)
+"files.exclude": {
+"**/node_modules": true,
+"**/.git": true,
+"**/dist": true
+},
+"search.exclude": {
+"**/node_modules": true,
+"**/dist": true
+}
+}
