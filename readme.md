@@ -1,5 +1,14 @@
 
 
+
+# Setup (one-time)
+## macOS / Linux
+./scripts/install-extensions.sh
+
+## Windows (PowerShell)
+.\scripts\install-extensions.ps1
+
+
 ## Recommended additions / best practices
 
 Don't commit secrets: Never add tokens to settings.json. Use environment variables or instruct devs to configure sonarlint.connectedMode.servers locally.
@@ -12,5 +21,5 @@ CI integration: Run SonarScanner in CI (GitHub Actions / Azure Pipelines) and su
 
 Extension pack: If you want stricter control, publish an internal extension pack that bundles your recommended extensions; then recommend that instead of a long list.
 
-## How to run 
+## How to run
 npm run dev

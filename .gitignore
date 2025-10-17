@@ -38,7 +38,15 @@ cache/
 # Editor / OS files
 .DS_Store
 Thumbs.db
-#.vscode/  Manually unignore if needed
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.vscode/workspaceStorage/
+.vscode/*.code-workspace
+
 .idea/
 *.swp
 *.swo
